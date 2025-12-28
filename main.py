@@ -3,7 +3,7 @@ import re
 
 os.system('cls')
 
-# بررسی امنیتی روی ورودی‌های لاگین
+
 def is_valid_login(username, password):
     valid_username = "admin"
     valid_password = "12345"
@@ -14,7 +14,7 @@ def is_valid_login(username, password):
 
     return username == valid_username and password == valid_password
 
-# بررسی قدرت رمز عبور
+
 def check_password_strength(password):
     if len(password) < 8:
         return "Weak"
